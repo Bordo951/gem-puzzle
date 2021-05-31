@@ -13,5 +13,5 @@ npm run build
 ```
 ### 2. Link to gh-pages
 
-[]()
+[https://bordo951.github.io/gem-puzzle/](https://bordo951.github.io/gem-puzzle/)
 

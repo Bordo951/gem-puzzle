@@ -9,19 +9,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rolling-scopes-school/bordo951-JS2020Q3.git"
+    "url": "git+https://github.com/Bordo951/gem-puzzle.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Irina Selivanova",
   "license": "ISC",
-  "homepage": "https://rolling-scopes-school.github.io/bordo951-JS2020Q3/gem-puzzle/",
+  "homepage": "https://bordo951.github.io/gem-puzzle",
   "devDependencies": {
     "css-loader": "^3.4.2",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.2.0",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.9.0",
